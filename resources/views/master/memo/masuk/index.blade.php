@@ -26,10 +26,24 @@
                 </ul>
             </div>
             <div class="card">
-                <div class="card-header d-flex justify-content-between align-items-center">
-                    <span>Surat Keluar</span>
-                    <a href="tambah_surat.html" class="btn btn-success">+ Tambah Surat</a>
-                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-3">
+                        <div>
+                            <button class="btn btn-secondary">Excel</button>
+                            <button class="btn btn-secondary">PDF</button>
+                            <button class="btn btn-secondary">Print</button>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Column visibility</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" id="search" class="form-control" placeholder="Search...">
+                        </div>
+                    </div>
                 <div class="card-body">
                     <div class="table-responsive">
                         <table id="surat-keluar" class="table table-striped table-hover">

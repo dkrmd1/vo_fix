@@ -26,6 +26,7 @@
                 </ul>
             </div>
             <div class="card">
+                
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <span>Memo Keluar</span>
                     <a href="tambah_surat.html" class="btn btn-success">+ Tambah Memo</a>
