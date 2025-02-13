@@ -1,0 +1,44 @@
+[16-May-2024 09:34:47 Asia/Jakarta] PHP Warning:  include(/home/jetn8168/public_html/demo/vo/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/jetn8168/public_html/demo/vo/system/core/Exceptions.php on line 269
+[16-May-2024 09:34:47 Asia/Jakarta] PHP Warning:  include(): Failed opening '/home/jetn8168/public_html/demo/vo/application//errors/html/error_php.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jetn8168/public_html/demo/vo/system/core/Exceptions.php on line 269
+[16-May-2024 09:34:47 Asia/Jakarta] PHP Warning:  include(/home/jetn8168/public_html/demo/vo/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/jetn8168/public_html/demo/vo/system/core/Exceptions.php on line 269
+[16-May-2024 09:34:47 Asia/Jakarta] PHP Warning:  include(): Failed opening '/home/jetn8168/public_html/demo/vo/application//errors/html/error_php.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jetn8168/public_html/demo/vo/system/core/Exceptions.php on line 269
+[08-Jun-2024 20:53:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[08-Jun-2024 20:53:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[08-Jun-2024 20:53:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[08-Jun-2024 20:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[09-Jun-2024 07:35:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[09-Jun-2024 19:34:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[09-Jun-2024 19:34:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[09-Jun-2024 19:34:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[09-Jun-2024 19:34:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2
+[09-Jun-2024 19:34:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/jetn8168/public_html/demo/vo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jetn8168/public_html/demo/vo/index.php on line 2

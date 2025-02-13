@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SuratController;
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\MemoController;
 use App\Http\Controllers\Dashboard\DashboardController;
 
 /*
@@ -22,4 +24,14 @@ Route::group(['middleware' => 'guest'], function(){
 
  Route::group(['middleware' => 'auth'], function(){
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/surat/masuk', [SuratController::class, 'masuk'])->name('master.surat.masuk.index');
+    Route::get('/surat/keluar', [SuratController::class, 'keluar'])->name('master.surat.keluar.index');
+    Route::get('/surat/create', [SuratController::class, 'create'])->name('master.surat.create');
+    Route::get('/memo', [MemoController::class, 'index'])->name('master.memo.index');
+    Route::get('/memo/masuk', [MemoController::class, 'masuk'])->name('master.memo.masuk.index');
+    Route::get('/memo/keluar', [MemoController::class, 'keluar'])->name('master.memo.keluar.index');
+    Route::get('/memo/create', [MemoController::class, 'create'])->name('master.memo.keluar.create');
+    Route::get('/data/group', [MemoController::class, 'group'])->name('master.data.group.group');
  });
+
+ 
