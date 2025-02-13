@@ -10,6 +10,6 @@ class GroupController extends Controller
     public function group()
     {
         $groups = group::all(); // Ambil semua data dari tabel surat
-        return view('master.data.group.group', compact('groups'));
+        return view('master.data.group', compact('groups'));
     }
 }

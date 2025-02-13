@@ -73,7 +73,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="{{route('master.memo.create') }}">
                                 <span class="sub-item">Memo</span>
                             </a>
                         </li>
@@ -105,7 +105,7 @@
                     <h4 class="text-section">Master Data</h4>
                 </li>
                 <li class="nav-item">
-                    <a href="#">
+                    <a href="{{route ('master.data.group')}}">
                         <i class="fas fa-database"></i>
                         <p>Data Group</p>
                     </a>

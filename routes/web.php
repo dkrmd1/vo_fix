@@ -4,7 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SuratController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\MemoController;
+use App\Http\Controllers\GroupController;
 use App\Http\Controllers\Dashboard\DashboardController;
+use PHPUnit\TextUI\XmlConfiguration\Group;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,8 +32,8 @@ Route::group(['middleware' => 'guest'], function(){
     Route::get('/memo', [MemoController::class, 'index'])->name('master.memo.index');
     Route::get('/memo/masuk', [MemoController::class, 'masuk'])->name('master.memo.masuk.index');
     Route::get('/memo/keluar', [MemoController::class, 'keluar'])->name('master.memo.keluar.index');
-    Route::get('/memo/create', [MemoController::class, 'create'])->name('master.memo.keluar.create');
-    Route::get('/data/group', [MemoController::class, 'group'])->name('master.data.group.group');
+    Route::get('/memo/create', [MemoController::class, 'create'])->name('master.memo.create');
+    Route::get('/data/group', [GroupController::class, 'group'])->name('master.data.group');
  });
 
  
