@@ -26,7 +26,7 @@
                       <select class="form-select">
                           <option value="Biasa">Biasa</option>
                           <option value="Segera">Segera</option>
-                          <option value="Urgent">Urgent</option>
+                          <option value="Penting">Penting</option>
                       </select>
                   </div>
                   <div class="mb-3">

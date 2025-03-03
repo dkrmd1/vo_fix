@@ -20,6 +20,8 @@
                     <li class="separator">
                         <i class="icon-arrow-right"></i>
                     </li>
+
+                    
                     <li class="nav-item">
                         <a href="#">Keluar</a>
                     </li>
@@ -28,7 +30,7 @@
             <div class="card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <span>Surat Keluar</span>
-                    <a href="tambah_surat.html" class="btn btn-success">+ Tambah Surat</a>
+                    <a href="{{ route('master.surat.create')}}" class="btn btn-success">+ Tambah Surat</a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -78,33 +80,7 @@
                 </div>
             </div>
         </div>
-        <script>
-            $(document).ready(function() {
-                $('#surat-keluar').DataTable({
-                    dom: 'Bfrtip',
-                    buttons: [
-                        {
-                            extend: 'excelHtml5',
-                            text: 'Excel',
-                            className: 'btn btn-secondary'
-                        },
-                        {
-                            extend: 'pdfHtml5',
-                            text: 'PDF',
-                            className: 'btn btn-secondary'
-                        },
-                        {
-                            extend: 'print',
-                            text: 'Print',
-                            className: 'btn btn-secondary'
-                        },
-                        {
-                            extend: 'colvis',
-                            text: 'Column Visibility',
-                            className: 'btn btn-secondary'
-                        }
-                    ]
-                });
-            });
-        </script>
+    </div>
+</div>
+
 @endsection

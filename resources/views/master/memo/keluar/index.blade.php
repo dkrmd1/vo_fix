@@ -29,7 +29,7 @@
                 
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <span>Memo Keluar</span>
-                    <a href="tambah_surat.html" class="btn btn-success">+ Tambah Memo</a>
+                    <a href="{{route('master.memo.create')}}" class="btn btn-success">+ Tambah Memo</a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">

@@ -72,7 +72,7 @@
                                             <td>Memo</td>
                                             <td>Bagian SDM</td>
                                             <td>Rekrutmen Pegawai Baru</td>
-                                            <td>Urgent</td>
+                                            <td>Penting</td>
                                             <td>07 Juni 2024</td>
                                             <td><button class="btn btn-primary btn-sm">Lihat</button></td>
                                         </tr>

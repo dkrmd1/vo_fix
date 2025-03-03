@@ -1,6 +1,5 @@
 @extends('layouts.main')
 @section('container')
-<div class="container">
     <div class="container">
         <div class="page-inner">
             <div class="page-header">

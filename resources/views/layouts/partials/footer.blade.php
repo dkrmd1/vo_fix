@@ -16,12 +16,12 @@
         </ul>
       </nav>
       <div class="copyright">
-        2024, made with <i class="fa fa-heart heart text-danger"></i> by
-        <a href="http://www.themekita.com">ThemeKita</a>
+        Copyright © 2025 <i class="fa fa-heart heart text-danger"></i> by
+        <a href="https://bjbsekuritas.co.id/">Virtual Office</a>
       </div>
       <div>
         Distributed by
-        <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
+        <a target="_blank" href="https://bjbsekuritas.co.id/">PT bjb Sekuritas Jawa Barat</a>.
       </div>
     </div>
   </footer>

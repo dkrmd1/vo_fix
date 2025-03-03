@@ -24,7 +24,7 @@ Route::group(['middleware' => 'guest'], function(){
     Route::post('/login', [AuthController::class, 'authenticate'])->name('login.auth');
  });
 
- Route::group(['middleware' => 'auth'], function(){
+Route::group(['middleware' => 'auth'], function(){
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/surat/masuk', [SuratController::class, 'masuk'])->name('master.surat.masuk.index');
     Route::get('/surat/keluar', [SuratController::class, 'keluar'])->name('master.surat.keluar.index');
@@ -34,6 +34,7 @@ Route::group(['middleware' => 'guest'], function(){
     Route::get('/memo/keluar', [MemoController::class, 'keluar'])->name('master.memo.keluar.index');
     Route::get('/memo/create', [MemoController::class, 'create'])->name('master.memo.create');
     Route::get('/data/group', [GroupController::class, 'group'])->name('master.data.group');
+    Route::get('/data/user', [GroupController::class, 'user'])->name('master.data.user');
  });
 
  
